@@ -29,7 +29,7 @@ root.render(
       layout={MainLayout}
       dashboard={HomePage}
       dataProvider={customDataProvider(
-        restProvider("http://localhost:8000/api/")
+        restProvider("http://147.79.75.3:8000/api/")
       )}
     >
       <Resource name="files" create={UploadImage} />
